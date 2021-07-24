@@ -35,6 +35,10 @@
       "description": "Don't change this, leave the value as 1",
       "value": "1"
     },
+    "LIBDRIVE_CLOUD": {
+      "description": "Google drive folder id to store configs, see https://github.com/libDrive/libDrive/wiki/Setup#optional-steps for more info.",
+      "required": false
+    },
     "BOT_TOKEN": {
       "description": "The telegram bot token that you get from @BotFather.",
       "required": true
