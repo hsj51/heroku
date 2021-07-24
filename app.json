@@ -34,6 +34,26 @@
     "WEB_CONCURRENCY": {
       "description": "Don't change this, leave the value as 1",
       "value": "1"
+    },
+    "BOT_TOKEN": {
+      "description": "The telegram bot token that you get from @BotFather.",
+      "required": true
+    },
+    "SECRET": {
+      "description": "Your Libdrive Settings SECRET.",
+      "required": true
+    },
+    "LD_DOMAIN": {
+      "description": "Your Libdrive Domain without https:// or http://",
+      "required": true
+    },
+    "ADMIN_IDS": {
+      "description": "The Telegram User ID of the Owner of the Bot. Get it by using /info in @MissRose_bot.",
+      "required": false
+    },
+    "PIC": {
+      "description": "The Picture You want to appear when start command is used.",
+      "required": false
     }
   },
   "stack": "container"

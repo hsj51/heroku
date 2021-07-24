@@ -26,5 +26,11 @@ else
     cd ./dev
 fi
 
+## Bot Setup
+git clone https://github.com/shrey2199/LD_Meta_bot bot
+cp -r bot/helpers bot/bot.py bot/config.py ./
+pip3 install -r bot/requirements.txt -q --no-cache-dir
+
+
 pip3 install -r requirements.txt -q --no-cache-dir
-gunicorn main:app
+gunicorn main:app & python3 bot.py
